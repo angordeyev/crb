@@ -1,0 +1,48 @@
+{
+  "folders":
+  [
+    {
+      "path": "contexts"
+    },
+    {
+      "path": "doc"
+    },
+    {
+      "name": "crbbots",
+      "path": "apps/crbbots/lib"
+    },
+    {
+      "name": "crbweb",
+      "path": "apps/crbweb/lib/crbweb_web"
+    },
+    {
+      "file_exclude_patterns":
+      [
+        "*.dump",
+        "*.lock",
+        "*.data",
+        "*.mdb",
+        "*.log",
+        "*.r"
+      ],
+      "folder_exclude_patterns":
+      [
+        "crb/tmp",
+        "crb/db"
+      ],
+      "name": "/",
+      "path": "./"
+    },
+    {
+      "folder_include_patterns": "crbbots",
+      "name": "contexts",
+      "path": "contexts"
+    }
+  ],
+  "settings":
+  {
+    "elixir_interpreter": "/usr/bin/elixir",
+    "mix_env": "test",
+    "tab_size": 2
+  }
+}

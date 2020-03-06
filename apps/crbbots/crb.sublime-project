@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		// {
+  //     "path": "./lib",      
+  //     "file_exclude_patterns": ["*.dump", "*.lock", "*.data", "*.mdb", "*.log"],
+  //     "folder_exclude_patterns": ["crb/tmp","crb/db"]
+  //   },
+    {
+			"path": ".",      
+      "file_exclude_patterns": ["*.dump", "*.lock", "*.data", "*.mdb", "*.log", "*.r"],
+      "folder_exclude_patterns": ["crb/tmp","crb/db"]
+		}
+	],
+  "settings":
+  {
+      "tab_size": 2,
+      "elixir_interpreter": "/usr/bin/elixir",
+      "mix_env": "test"
+  },
+
+}

@@ -1,0 +1,1 @@
+run_erl -daemon ./crb ./log "iex -S mix"

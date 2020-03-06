@@ -1,0 +1,15 @@
+{
+  "folders":
+  [
+    {
+      "path": "./lib",      
+      "file_exclude_patterns": ["*.dump", "*.lock", "*.data", "*.mdb"],
+      "folder_exclude_patterns": ["crb/tmp","crb/db"]
+    }
+  ],
+  "settings":
+  {
+      "tab_size": 2
+  },
+
+}
