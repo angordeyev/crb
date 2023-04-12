@@ -26,5 +26,4 @@ defmodule Crb.MixProject do
   defp deps do
     []
   end
-
 end
